@@ -6,9 +6,8 @@ description: > # description of the site (multiple lines allowed)
   software engineer @ Meta, working on WhatsApp
 
 favicon: "./logo.png" # relative path to site's favicon
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
-theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
 theme_config:
   back_home_text: "..back" # customize text for homepage link in post layout
