@@ -2,46 +2,33 @@
 layout: default
 ---
 
-<div class="home">
-  <head>
-      <title>{{ site.title }}</title>
-  </head>
-  <div class="home-title">
-    <p class="home-heading">{{ site.title }}</p>
-    <p class="home-sub-heading">{{- site.description | escape -}}</p>
-  </div>
+<header>
+  <h1>{{ site.title }}</h1>
+  {%-if site.theme_config.show_description-%}
+  <p>{{ site.description }}</p>
+  {%-endif-%}
+</header>
 
-  {%- if site.posts.size > 0 -%}
-  <ul class="post-list">
-      {% for post in site.posts  %}
-      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-  
-      {% if forloop.first %}
-      <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
-      <ul>
-      {% endif %}
-  
-      <li>
-          {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">
-            {{ post.date | date: date_format }}
-          </span>
-          <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-      </li>
-  
-      {% if forloop.last %}
-      </ul>
-      {% else %}
-          {% if this_year != next_year %}
-          </ul>
-          <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
-          <ul>
-          {% endif %}
-      {% endif %}
-  {% endfor %}
-  </ul>
-  {%- endif -%}
-</div>
+<h3>my work in the news</h3>
+<p>
+  at PayPal, i worked on enabling solutions for its most stretegic partnerships.
+  when i wasn't doing that i was working on the cutting-edge of blockchain in
+  its Innovation Lab. at Meta, i work on WhatsApp, which has a far reaching
+  impact - 3 billion users (yes, billion) across the globe.
+</p>
+<p>
+  because of the far-reaching impact, projects like these garner public interest
+  and thus, more often than not, make headlines. here's a list of articles by
+  newsoutles and other media that mentions me or my work. the list is not
+  exhaustive and may not include every article that has been published on the
+  said projects.
+</p>
+
+<h4>PayPal</h4>
+{%-include menu_item.html collection=site.data.menu.entries-%} {{ content }}
+
+<h4>WhatsApp/Meta</h4>
+{%-include menu_item.html collection=site.data.menu.entries-%} {{ content }}
+<hr />
+
+{%-include footer.html-%}

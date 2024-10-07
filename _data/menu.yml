@@ -1,0 +1,26 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: global innovation tournament
+    entries:
+      - title: study and HBR article by Prof Gerry Tsoukalas
+        url: https://hbr.org/2022/07/how-paypal-gets-employees-invested-in-innovation
+  - title: crypto products and services
+    entries:
+      - title: paypal and coinbase
+        url: https://www.coinbase.com/blog/a-new-way-to-buy-crypto-on-coinbase-using-paypal
+      - title: buy, sell and hold crypto on paypal and venmo
+        url: https://paxos.com/2020/10/21/paypal-launches-new-service-enabling-users-to-buy-hold-and-sell-cryptocurrency/
+      - title: checkkout with crypto
+        url: https://newsroom.paypal-corp.com/2021-03-30-PayPal-Launches-Checkout-with-Crypto
+  - title: qr code payments
+    entries:
+      - title: safe, touchless payments on paypal and venmo during covid-19
+        url: https://www.linkedin.com/posts/weijiang_venmo-paypal-acceptance-activity-6726982055319736320-1COw/?trk=public_profile_like_view
+  - title: paypal's strategic partners
+    entries:
+      - title: paypal on apple itunes
+        url: https://finance.yahoo.com/news/paypal-apple-enter-major-partnership-164500016.html
+      - title: paypal partners with baidu
+        url: https://www.reuters.com/article/technology/chinas-baidu-enters-strategic-partnership-with-paypal-to-tap-chinese-tourists-idUSKBN1AC059/#:~:text=PayPal%20will%20work%20with%20Baidu
