@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+<h3>My work in the press</h3>
+<p>
+  At PayPal, I worked on enabling solutions for its most stretegic partnerships.
+  When I wasn't doing that, I was working on the cutting-edge of blockchain in
+  its Innovation Lab. At Meta, I work on WhatsApp, which has a far-reaching
+  impact - 3 billion users (yes, billion) across the globe.
+</p>
+<p>
+  Because of the inherent complexity and impact, projects like these garner
+  public interest and thus, more often than not, make headlines. Here's a list
+  of articles by newsoutles and other media that mentions me or my work. The
+  list is not exhaustive and may not include every article that has been
+  published on the said projects.
+</p>
+<h4>WhatsApp/Meta</h4>
+{%-include menu_item.html collection=site.data.menu.whatsapp_entries-%} {{
+content }}
+<h4>PayPal</h4>
+{%-include menu_item.html collection=site.data.menu.paypal_entries-%} {{ content
+}} {%-include footer.html-%}

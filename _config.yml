@@ -3,14 +3,14 @@ author: Vidit Maniyar # name of site's author
 email: viditmaniyar@gmail.com # email of site's author
 url: https://viditmaniyar.github.io/ # root address of the site
 description: > # description of the site (multiple lines allowed)
-  software engineer @ Meta, working on WhatsApp
+  Software Engineer @ Meta, working on WhatsApp
 
 favicon: "./logo.png" # relative path to site's favicon
 
 remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
 theme_config:
-  back_home_text: "..back" # customize text for homepage link in post layout
+  back_home_text: "← home" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
 

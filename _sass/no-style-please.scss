@@ -35,8 +35,8 @@ html {
 
 body {
   color: black;
-  font-family: monospace;
-  font-size: 16px;
+  font-family: "EB Garamond", "Helvetica Neue", "Segoe UI", sans-serif;
+  font-size: 22px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -75,6 +75,9 @@ li {
   max-width: 720px;
   margin: 0 auto;
   padding: 4rem 2rem;
+}
+
+.w p {
   text-align: justify;
   text-justify: inter-word;
 }
@@ -129,6 +132,54 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+// custom styles
+img.profile-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 20px 0 0;
+  align-self: center;
+}
+
+.about-container {
+  margin: 0 auto;
+}
+
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  align-self: center;
+}
+
+.profile-info h1 {
+  margin: 0 0 5px 0;
+}
+
+.profile-info p {
+  text-align: unset;
+  margin: 0 0 10px 0;
+}
+
+.nav-links-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
 }
 
 footer {

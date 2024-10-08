@@ -2,33 +2,60 @@
 layout: default
 ---
 
-<header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-  <p>{{ site.description }}</p>
-  {%-endif-%}
-</header>
+{%-include nav_links.html-%}
 
-<h3>my work in the news</h3>
-<p>
-  at PayPal, i worked on enabling solutions for its most stretegic partnerships.
-  when i wasn't doing that i was working on the cutting-edge of blockchain in
-  its Innovation Lab. at Meta, i work on WhatsApp, which has a far reaching
-  impact - 3 billion users (yes, billion) across the globe.
-</p>
-<p>
-  because of the far-reaching impact, projects like these garner public interest
-  and thus, more often than not, make headlines. here's a list of articles by
-  newsoutles and other media that mentions me or my work. the list is not
-  exhaustive and may not include every article that has been published on the
-  said projects.
-</p>
-
-<h4>PayPal</h4>
-{%-include menu_item.html collection=site.data.menu.entries-%} {{ content }}
-
-<h4>WhatsApp/Meta</h4>
-{%-include menu_item.html collection=site.data.menu.entries-%} {{ content }}
-<hr />
+<div class="about-container">
+  <div class="profile-section">
+    <img
+      src="https://avatars.githubusercontent.com/u/12117759?s=400&u=f55d230262ac00473995d18731f40155cc12d1ae&v=4"
+      alt="{{ site.title }}"
+      class="profile-image"
+    />
+    <div class="profile-info">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+  </div>
+  <div class="about-section">
+    <p>
+      In Sept 2021, I joined Meta and have been working at WhatsApp. A recent
+      project of mine includes Reactions, Document Captions, Forwarding media
+      with captions et al that are used by billions of users across the globe on
+      a daily basis.
+    </p>
+    <p>
+      My current focus at WhatsApp is revampping its web app. Ever since its
+      inception in 2014, WhatsApp's web app has grown to be the center of its
+      users' productivity and connections when on a large screen. The team was
+      so busy investing in bringing new (and dare I say awesome) features to the
+      users that we could never prioritize modernizing the app experience. I am
+      glad to share that this is changing. After months of working and refining,
+      we recently shipped the first installment of the new experience on
+      <a href="https://web.whatsapp.com">web.whatsapp.com</a>. I am excited to
+      be leading the charge for this project as we look for more ways to make
+      the app delightful to use on large screens.
+    </p>
+    <p>
+      Prior to that I worked at PayPal from 2015 to 2021. At PayPal my role was
+      that of a Software Engineer and I grew to become an Architect in the next
+      few years. In these initial years I was part of the team that built custom
+      solutions for our most strategic partners (>$100M TPV annually) to find
+      product market fit for these ideas.
+    </p>
+    <p>
+      I also spent about a year and a half working at the PayPal Innovation Lab.
+      This unit is PayPal's think tank - responsible for creating IP for the
+      company and experimenting and building with bleeding edge technology.
+      During my time with this team I created an internal-facing cryptocurrency
+      that used blockchain to reward employees. In my final year at PayPal, the
+      company formalized its Blockchain and Digital Currencies organization and
+      I became one of its early members. During my tenure at PayPal I filed 14
+      patents in fintech/payments spanning across domains like Identity, AR,
+      Blockchain, Information Security, Mobile hardware and Voice based AI
+      systems, to name a few and was named one of the top inventors at the
+      company, a few years in a row.
+    </p>
+  </div>
+</div>
 
 {%-include footer.html-%}
