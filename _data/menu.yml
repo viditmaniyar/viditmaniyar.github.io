@@ -2,49 +2,267 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 whatsapp_entries:
-  - title: test
+  - title: Message Reactions
     entries:
-      - title: study and HBR article by Prof Gerry Tsoukalas
-        url: https://hbr.org/2022/07/how-paypal-gets-employees-invested-in-innovation
-  - title: crypto products and services
+      - title: Meta CEO Mark Zuckerberg's Announcement Post on Facebook
+        url: https://www.facebook.com/zuck/posts/pfbid02NGm4zbKdGsizs16ZRymXEeU2QdMtSzEm9Lss8D58rBtDdgSf1Bi5LTookjwKCi9Vl
+      - title: WhatsApp Official Account on X (formerly Twitter)
+        url: https://x.com/WhatsApp/status/1546509815291289600
+      - title: The Sun
+        url: https://www.thesun.co.uk/tech/18479057/whatsapp-update-message-reactions-features/
+      - title: The Standard
+        url: https://www.standard.co.uk/news/tech/whatsapp-emoji-reactions-how-to-react-to-messages-b999433.html
+      - title: Techcrunch
+        url: https://techcrunch.com/2022/07/11/whatsapp-will-now-let-you-use-any-emoji-as-a-reaction-on-whatsapp/
+      - title: The Verge
+        url: https://www.theverge.com/2022/4/14/23025334/whatsapp-emoji-reaction-announcement-file-size-voice-calls
+      - title: XDA Developers
+        url: https://www.xda-developers.com/whatsapp-message-reactions-rolling-out
+      - title: 9to5 Mac
+        url: https://9to5mac.com/2022/05/05/wahtsapp-reactions-now-available/
+      - title: Android Police
+        url: https://www.androidpolice.com/whatsapp-message-reactions
+      - title: Live Mint
+        url: https://archive.ph/inmxI
+      - title: Business Insider
+        url: https://www.businessinsider.in/tech/apps/news/whatsapp-reactions-how-to-react-to-whatsapp-messages-using-an-emoji/articleshow/91488022.cms
+      - title: Endgadget
+        url: https://engadget.com/whats-app-reactions-roll-out-to-all-users-starting-today-075312936.html
+      - title: Gadgets 360
+        url: https://www.gadgets360.com/apps/news/whatsapp-reactions-emoji-quick-zuckerberg-announcement-may-5-emoji-2948261
+      - title: Social Media Today
+        url: https://www.socialmediatoday.com/news/whatsapp-will-now-enable-users-to-add-any-emoji-they-like-as-a-reaction/626992//
+  - title: Message Editing
     entries:
-      - title: paypal and coinbase
-        url: https://www.coinbase.com/blog/a-new-way-to-buy-crypto-on-coinbase-using-paypal
-      - title: buy, sell and hold crypto on paypal and venmo
-        url: https://paxos.com/2020/10/21/paypal-launches-new-service-enabling-users-to-buy-hold-and-sell-cryptocurrency/
-      - title: checkkout with crypto
-        url: https://newsroom.paypal-corp.com/2021-03-30-PayPal-Launches-Checkout-with-Crypto
-  - title: qr code payments
+      - title: Meta CEO Mark Zuckerberg's Announcement Post on Facebook
+        url: https://www.facebook.com/zuck/posts/pfbid031unx5846apPj8tyd2aq8qvaU1vfG3ANpfximjm4h4u8SByePKAKWCsFM3Qvc2UUMl
+      - title: BBC
+        url: https://www.bbc.com/news/business-65679356
+      - title: 9to5 Mac
+        url: https://9to5mac.com/2023/05/22/edit-whatsapp-messages/
+      - title: Android Police
+        url: https://www.androidpolice.com/whatsapp-finally-rolls-out-message-editing-worldwide/
+      - title: The Economic Times
+        url: https://archive.ph/goEDn
+      - title: BGR
+        url: https://bgr.com/tech/you-can-finally-edit-messages-on-whatsapp/
+      - title: WhatsApp Official Blog
+        url: https://blog.whatsapp.com/now-you-can-edit-your-whatsapp-messages
+      - title: Digital Trends
+        url: https://www.digitaltrends.com/mobile/whatsapp-finally-lets-you-edit-sent-messages/
+      - title: GSM Arena
+        url: https://www.gsmarena.com/you_can_now_edit_the_messages_you_send_on_whatsapp-news-58637.php
+      - title: India Today
+        url: https://www.indiatoday.in/technology/news/story/whatsapp-confirms-release-of-edit-message-feature-here-is-how-it-will-work-2382541-2023-05-22
+      - title: Life Wire
+        url: https://www.lifewire.com/whatsapp-lets-you-edit-messages-for-15-minutes-after-sending-7501127
+      - title: Live Mint
+        url: https://www.livemint.com/technology/tech-news/whatsapp-allows-users-to-edit-messages-with-15-minute-time-limit-11684775055358.html
+      - title: QZ
+        url: https://qz.com/meta-is-giving-users-15-minutes-to-edit-whatsapp-messag-1850462168
+      - title: Reuters
+        url: https://www.reuters.com/technology/whatsapp-allows-users-edit-messages-2023-05-22/
+      - title: Techcrunch
+        url: https://techcrunch.com/2023/05/22/whatsapp-now-lets-you-edit-messages-with-a-15-minute-time-limit/
+      - title: The Guardian
+        url: https://www.theguardian.com/technology/2023/may/22/whatsapp-allow-users-to-edit-messages-15-minutes
+      - title: The Shortcut
+        url: https://www.theshortcut.com/p/whatsapp-finally-lets-you-edit-messages
+      - title: The Verge
+        url: https://www.theverge.com/2023/5/22/23732767/whatsapp-message-editing-15-minutes
+      - title: Trusted Reviews
+        url: https://www.trustedreviews.com/news/whatsapp-message-editing-is-here-but-you-only-get-15-minutes-4329350
+  - title: Status Posting on Web
     entries:
-      - title: safe, touchless payments on paypal and venmo during covid-19
-        url: https://www.linkedin.com/posts/weijiang_venmo-paypal-acceptance-activity-6726982055319736320-1COw/?trk=public_profile_like_view
-  - title: paypal's strategic partners
+      - title: PYMNTS
+        url: https://www.pymnts.com/mobile-applications/2023/whatsapp-enable-status-updates-directly-from-web-interface/
+      - title: Android Police
+        url: https://www.androidpolice.com/whatsapp-web-testing-status-update-sharing/
+      - title: WABetaInfo
+        url: https://wabetainfo.com/whatsapp-is-rolling-out-status-update-sharing-feature-for-the-web-client/
+  - title: Web UI Refresh
     entries:
-      - title: paypal on apple itunes
-        url: https://finance.yahoo.com/news/paypal-apple-enter-major-partnership-164500016.html
-      - title: paypal partners with baidu
-        url: https://www.reuters.com/article/technology/chinas-baidu-enters-strategic-partnership-with-paypal-to-tap-chinese-tourists-idUSKBN1AC059/#:~:text=PayPal%20will%20work%20with%20Baidu
+      - title: Times of India
+        url: https://timesofindia.indiatimes.com/technology/social/whatsapp-web-getting-new-user-interface-heres-what-has-changed/articleshow/109351732.cms
+      - title: WABetaInfo
+        url: https://wabetainfo.com/whatsapp-is-rolling-out-a-redesigned-sidebar-interface-for-the-web-client/
+      - title: GeeksforGeeks
+        url: https://www.geeksforgeeks.org/whatsapp-web-is-getting-a-redesigned-sidebar/
+      - title: Montek Services
+        url: https://www.montekservices.com/news/WhatsApp-Web-Introduces-New-User-Interface:-Here-is-What-Has-Changed
+      - title: Indian Express
+        url: https://indianexpress.com/article/technology/tech-news-technology/whatsapp-web-revamped-sideba-9272808/
 
 paypal_entries:
-  - title: global innovation tournament
+  - title: Global Innovation Tournament
     entries:
-      - title: study and HBR article by Prof Gerry Tsoukalas
-        url: https://hbr.org/2022/07/how-paypal-gets-employees-invested-in-innovation
-  - title: crypto products and services
+      - title: Research Article on Tournament
+        entries:
+          - title: Harvard Business Review
+            url: https://hbr.org/2022/07/how-paypal-gets-employees-invested-in-innovation
+          - title: Boston University Insights
+            url: https://insights.bu.edu/how-paypal-gets-employees-invested-in-innovation/
+      - title: News Related to Blockchain & Token Invention
+        entries:
+          - title: Bitcoin Exchange Guide
+            url: https://bitcoinexchangeguide.com/paypal-moves-into-crypto-token-economics-by-using-a-blockchain-reward-system-for-employees/
+          - title: CCN
+            url: https://www.ccn.com/paypal-gets-into-blockchain-but-only-internally-among-employees-for-now/
+          - title: Cheddar
+            url: https://www.cheddar.com/media/paypal-launches-employee-experiment-into-blockchain/
+          - title: Coinspeaker
+            url: https://www.coinspeaker.com/paypal-blockchain-employees/
+          - title: Cointelegraph
+            url: https://cointelegraph.com/news/paypal-launches-blockchain-based-innovation-reward-system-for-employees
+          - title: Daily Hodl
+            url: https://dailyhodl.com/2018/12/07/paypal-launches-internal-crypto-platform-plus-bitcoin-ripple-and-xrp-stellar-ethereum-eos-litecoin-vechain-crypto-news-alert/
+          - title: NewsBTC
+            url: https://www.newsbtc.com/news/paypal-delves-into-private-crypto-with-internal-token-platform
+      - title: Announcements by PayPal Executives
+        entries:
+          - title: PayPal CEO Dan Schulman on Facebook
+            url: https://www.facebook.com/danhschulman/posts/pfbid0o3hDAJW4yZbQUs6uA2bJZCNWBkepDizzbQZ1EWp5AsdqvTqtafdSW3WAhJowVPFRl
+          - title: PayPal CTO Sri Shivananda on LinkedIn
+            url: https://www.linkedin.com/feed/update/urn:li:activity:6456219449388261376/
+  - title: Crypto Buy and Sell
     entries:
-      - title: paypal and coinbase
-        url: https://www.coinbase.com/blog/a-new-way-to-buy-crypto-on-coinbase-using-paypal
-      - title: buy, sell and hold crypto on paypal and venmo
+      - title: Paxos Blog
         url: https://paxos.com/2020/10/21/paypal-launches-new-service-enabling-users-to-buy-hold-and-sell-cryptocurrency/
-      - title: checkkout with crypto
-        url: https://newsroom.paypal-corp.com/2021-03-30-PayPal-Launches-Checkout-with-Crypto
-  - title: qr code payments
+      - title: TechCrunch
+        url: https://techcrunch.com/2020/11/12/paypal-says-all-users-in-u-s-can-now-buy-hold-and-sell-cryptocurrencies/
+      - title: TechCrunch
+        url: https://techcrunch.com/2020/10/21/paypal-to-let-you-buy-and-sell-cryptocurrencies-in-the-us/
+      - title: Reuters
+        url: https://www.reuters.com/article/paypal-cryptocurrency/paypal-to-allow-cryptocurrency-buying-selling-and-shopping-on-its-network-idINL1N2HB14U/
+      - title: Reuters
+        url: https://www.reuters.com/article/paypal-cryptocurrency-int/paypal-to-open-up-network-to-cryptocurrencies-idUSKBN2762D5/
+      - title: Bitcoin.com
+        url: https://news.bitcoin.com/paypal-launches-business-unit-dedicated-to-cryptocurrency/
+      - title: Fintech Magazine
+        url: https://fintechmagazine.com/digital-payments/paypal-launches-bitcoin-buying-and-selling
+      - title: Decrypt
+        url: https://decrypt.co/48042/paypal-launches-crypto-trading-for-us-users
+      - title: CNBC
+        url: https://www.cnbc.com/2020/10/21/paypal-gets-into-crypto-with-new-features-for-trading-and-shopping.html
+      - title: Archive
+        url: https://archive.ph/Lm9hM
+  - title: In-Store QR Code Payments
     entries:
-      - title: safe, touchless payments on paypal and venmo during covid-19
+      - title: Citcon COO on LinkedIn
         url: https://www.linkedin.com/posts/weijiang_venmo-paypal-acceptance-activity-6726982055319736320-1COw/?trk=public_profile_like_view
-  - title: paypal's strategic partners
+      - title: Archive
+        url: https://archive.ph/q6F6U
+      - title: Forbes
+        url: https://www.forbes.com/sites/elanagross/2020/07/30/cvs-will-become-first-national-retailer-to-use-paypal-and-venmo-for-touch-free-payment/?sh=7cb81b1d26bf
+      - title: Forbes
+        url: https://www.forbes.com/sites/pamdanziger/2021/03/01/paypal-is-moving-aggressively-to-in-store-contactless-payments-tapping-a-19b-opportunity/?sh=4cd7c99025d1
+      - title: MobileSyrup
+        url: https://mobilesyrup.com/2020/05/19/paypal-launches-qr-code-payments-to-offer-new-cashless-way-to-shop/
+      - title: PaymentsDive
+        url: https://www.paymentsdive.com/news/paypal-boom-qr-code-payments-expanding-bnpl-to-australia/599680/
+      - title: PR Newswire
+        url: https://www.prnewswire.com/news-releases/paypal-and-venmo-to-introduce-qr-code-touch-free-payment-technology-in-cvs-pharmacy-stores-301103038.html
+      - title: PYMNTS
+        url: https://www.pymnts.com/news/payment-methods/2020/paypal-qr-codes-bring-contactless-payments-to-in-person-transactions/
+      - title: PYMNTS
+        url: https://www.pymnts.com/news/payment-methods/2021/vistaprint-teams-with-paypal-to-advance-qr-code-adoption/
+      - title: Reuters
+        url: https://www.reuters.com/article/paypal-cryptocurrency-int/paypal-to-open-up-network-to-cryptocurrencies-idUSKBN2762D5/
+      - title: TechCrunch
+        url: https://techcrunch.com/2020/11/16/cvs-becomes-first-national-retailer-to-offer-support-for-paypal-and-venmo-qr-codes-at-checkout/?guccounter=1
+      - title: Silicon Republic
+        url: https://www.siliconrepublic.com/business/paypal-launches-qr-codes-to-limit-physical-contact-for-casual-sellers
+  - title: MercadoLibre Partnership
+    entries:
+      - title: Archive
+        url: https://archive.ph/5l3sJ
+      - title: BNamericas
+        url: https://www.bnamericas.com/en/news/how-deep-can-paypal-and-mercadolibres-ties-go
+      - title: TechCrunch
+        url: https://techcrunch.com/2019/03/12/paypal-to-invest-750m-and-dragoneer-100m-into-mercadolibre-argentinas-e-commerce-powerhouse/
+      - title: PYMNTS
+        url: https://www.pymnts.com/news/retail/2020/paypal-mercado-libre-integrate-payments-systems-in-brazil-and-mexico/
+      - title: PYMNTS
+        url: https://www.pymnts.com/news/2019/paypal-mercado-libre-pago-ecommerce-payments/
+      - title: PayPal Newsroom
+        url: https://newsroom.paypal-corp.com/paypal-makes-strategic-investment-in-mercadolibre
+      - title: LinkedIn
+        url: https://www.linkedin.com/pulse/paypal-signs-commercial-agreement-mercadolibre-dan-schulman/
+      - title: Fool.com
+        url: https://www.fool.com/investing/2020/01/07/paypal-mercadolibre-good-partnership.aspx
+  - title: Coinbase Partnership
+    entries:
+      - title: Coinbase Blog
+        url: https://www.coinbase.com/blog/a-new-way-to-buy-crypto-on-coinbase-using-paypal
+      - title: Coindesk
+        url: https://www.coindesk.com/business/2021/04/29/coinbase-debuts-buy-with-paypal-feature-but-read-the-fine-print/
+      - title: Cointelegraph
+        url: https://cointelegraph.com/news/coinbase-offers-customers-a-way-to-purchase-crypto-using-paypal
+      - title: The Verge
+        url: https://www.theverge.com/2021/4/30/22411545/coinbase-paypal-support-cryptocurrency-trading
+  - title: Paymentus Partnership
+    entries:
+      - title: eSeller365
+        url: https://eseller365.com/paypal-and-paymentus-enter-strategic-partnership/
+      - title: Paymentus
+        url: https://www.paymentus.com/industry-insights/paymentus-paypal/
+      - title: Paymentus
+        url: https://www.paymentus.com/paypal/
+      - title: The Paypers
+        url: https://thepaypers.com/news/paypal-paymentus-enter-strategic-partnership--777194
+  - title: Meta (Facebook) Payments Partnership
+    entries:
+      - title: CNBC
+        url: https://www.cnbc.com/2018/12/13/paypal-could-get-big-boost-from-expanded-facebook-partnership-analyst.html
+      - title: Wharton
+        url: https://knowledge.wharton.upenn.edu/podcast/knowledge-at-wharton-podcast/the-facebook-paypal-partnership-who-benefits-most/
+      - title: MarketWatch
+        url: https://www.marketwatch.com/story/an-expanded-paypal-facebook-partnership-could-be-a-game-changer-for-both-analyst-says-2018-12-13
+      - title: Social Media Today
+        url: https://www.socialmediatoday.com/social-business/paypal-announces-new-integration-facebook-messenger
+  - title: Baidu Partnership
+    entries:
+      - title: Electronic Payments International
+        url: https://www.electronicpaymentsinternational.com/news/paypal-inks-strategic-partnership-baidu/
+      - title: Financial Times
+        url: https://www.ft.com/content/8d896c94-7232-11e7-aca6-c6bd07df1a3c
+      - title: Marketing Interactive
+        url: https://www.marketing-interactive.com/baidu-and-paypal-line-up
+      - title: Reuters
+        url: https://www.reuters.com/article/us-baidu-paypal-payments-idUKKBN1AC059/
+      - title: Seeking Alpha
+        url: https://seekingalpha.com/news/3281930-payment-wars-baidu-partners-paypal
+      - title: SP Global
+        url: https://www.spglobal.com/market-intelligence/en/news-insights#q=&rows=20&pagenum=1&sort=es_unified_dt%20desc&facets={%22es_content_type_s%22:[%22Articles%22,%22News%22,%22Blog%22,%22Podcast%22,%22Market%20Intelligence%20Research%22,%22Credit%20Risk%22,%22Quantamental%20Research%22]}
+      - title: TechCrunch
+        url: https://techcrunch.com/2017/07/27/baidu-teams-up-with-paypal/
+      - title: The China Project
+        url: https://thechinaproject.com/2017/07/27/paypal-accept-payments-baidu-wallet-chinas-latest-business-technology-news/
+      - title: The Paypers
+        url: https://thepaypers.com/mobile-payments/baidu-enters-strategic-partnership-with-paypal--769635
+  - title: Apple Partnership
     entries:
       - title: paypal on apple itunes
         url: https://finance.yahoo.com/news/paypal-apple-enter-major-partnership-164500016.html
-      - title: paypal partners with baidu
-        url: https://www.reuters.com/article/technology/chinas-baidu-enters-strategic-partnership-with-paypal-to-tap-chinese-tourists-idUSKBN1AC059/#:~:text=PayPal%20will%20work%20with%20Baidu
+  - title: Checkout with Crypto
+    entries:
+      - title: PayPal NewsRoom
+        url: https://newsroom.paypal-corp.com/2021-03-30-PayPal-Launches-Checkout-with-Crypto
+
+external_entries:
+  - title: Finovate Awards
+    entries:
+      - title: Informa Connect
+        url: https://informaconnect.com/finovate-industry-awards/speakers/vidit-maniyar/
+  - title: Globee Awards
+    entries:
+      - title: Globee Awards
+        url: https://globeeawards.com/vidit-maniyar/
+  - title: OHack
+    entries:
+      - title: LinkedIn (OHack 2017 San Jose)
+        url: https://www.linkedin.com/pulse/opportunity-hack-2017-san-jose-good-experiment-bryant-chan/
+  - title: Mentoring
+    entries:
+      - title: ADP List
+        url: https://adplist.org/widgets/impact?src=vidit

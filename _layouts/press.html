@@ -1,25 +1,45 @@
 ---
-layout: default
+layout: post
 ---
 
-{%-include back_link.html-%}
-<h3>My work in the press</h3>
+<h2>In the press</h2>
 <p>
-  At PayPal, I worked on enabling solutions for its most stretegic partnerships.
-  When I wasn't doing that, I was working on the cutting-edge of blockchain in
-  its Innovation Lab. At Meta, I work on WhatsApp, which has a far-reaching
-  impact - 3 billion users (yes, billion) across the globe.
+  In my career thus far, I have often had the opportunity to work on projects
+  that are either inherently complex or carry an out-sized impact - or
+  sometimes, both. Here’s a non-exhaustive list of articles by news outles and
+  other media that mentions me or my work.
 </p>
+<ul>
+  <li><a href="#whatsapp">WhatsApp</a></li>
+  <li><a href="#paypal">PayPal</a></li>
+  <li>
+    <a href="#external">Mentoring, Industry Engagements & Panels</a>
+  </li>
+</ul>
+<h3 id="whatsapp"><a class="no-style" href="#whatsapp">WhatsApp</a></h3>
 <p>
-  Because of the inherent complexity and impact, projects like these garner
-  public interest and thus, more often than not, make headlines. Here's a list
-  of articles by newsoutles and other media that mentions me or my work. The
-  list is not exhaustive and may not include every article that has been
-  published on the said projects.
+  <em>2021 - current</em> · At Meta, I work on WhatsApp, which has a
+  far-reaching impact - 3 billion users (yes, billion) across the globe.
 </p>
-<h4>WhatsApp/Meta</h4>
-{%-include menu_item.html collection=site.data.menu.whatsapp_entries-%} {{
-content }}
-<h4>PayPal</h4>
-{%-include menu_item.html collection=site.data.menu.paypal_entries-%} {{ content
-}} {%-include footer.html-%}
+{%-include menu_item.html collection=site.data.menu.whatsapp_entries-%}
+<h3 id="paypal"><a class="no-style" href="#paypal">PayPal</a></h3>
+<p>
+  <em>2015 - 2021</em> · At PayPal, I worked on enabling solutions for its most
+  stretegic partnerships. When I wasn’t doing that, I was working on the
+  cutting-edge of blockchain and cryptocurreny in its Innovation Lab.
+</p>
+{%-include menu_item.html collection=site.data.menu.paypal_entries-%}
+<h3 id="external">
+  <a class="no-style" href="#external"
+    >Mentoring, Industry Engagements & Panels</a
+  >
+</h3>
+<p>
+  <em>2016 - current</em> · Over the years, I have built deep expertise in
+  domains like payments, large-scale software and system design, blockchain and
+  cryptocurrencies. I like to find time from my day-to-day to give back to the
+  industry in form of 1:1 or group coaching, peer reviews and feedback or by
+  sharing my insights from the industry as part of a judging panel.
+</p>
+{%-include menu_item.html collection=site.data.menu.external_entries-%}
+{%-include footer.html-%}

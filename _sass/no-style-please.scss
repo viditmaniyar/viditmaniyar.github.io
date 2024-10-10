@@ -168,7 +168,7 @@ img.profile-image {
 .nav-links-wrapper {
   display: flex;
   justify-content: center;
-  margin: 50px 0px;
+  margin-bottom: 30px;
 }
 
 .nav-links {
@@ -180,6 +180,11 @@ img.profile-image {
   text-decoration: none;
   color: #000;
   margin-right: 10px;
+}
+
+a.no-style {
+  color: #000;
+  text-decoration: none;
 }
 
 footer {
